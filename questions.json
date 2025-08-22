@@ -1,0 +1,6229 @@
+[
+  {
+    "question": "Here's a picture of a house. What's the house number?",
+    "image": "address1.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "4507",
+    "alternate_answers": []
+  },
+  {
+    "question": "Here's a picture of a house. What's the house number?",
+    "image": "address2.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "14602",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the house number of the house protected by ADT?",
+    "image": "address3.png",
+    "tags": [
+      "Extraction",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5367",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the house number of the building to the right of the blue one?",
+    "image": "address4.png",
+    "tags": [
+      "Extraction",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "8",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the house number of the tallest building in this picture?",
+    "image": "address5.png",
+    "tags": [
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "333",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the street address of the large building? Your answer should include the number then full street name.",
+    "image": "address6.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "160 Queen Street",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which team is winning? Give the actual name of the team (e.g. \"Lakers\", \"Bulls\")",
+    "image": "basketball_1.png",
+    "tags": [
+      "Extraction",
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Sports",
+    "answer": "Heat",
+    "alternate_answers": []
+  },
+  {
+    "question": "The currently-losing team hails from which US city?",
+    "image": "basketball_1.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Screen Capture",
+    "domain": "Sports",
+    "answer": "San Antonio",
+    "alternate_answers": []
+  },
+  {
+    "question": "What cut of beef is this? Give the most obvious name.",
+    "image": "beef1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "filet mignon",
+    "alternate_answers": []
+  },
+  {
+    "question": "What cut of beef is this? Give the most obvious name.",
+    "image": "beef2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "porterhouse",
+    "alternate_answers": []
+  },
+  {
+    "question": "What cut of beef is this? Give the most obvious name.",
+    "image": "beef3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "Ribeye",
+    "alternate_answers": [
+      "rib eye",
+      "scotch fillet"
+    ]
+  },
+  {
+    "question": "What cut of beef is this? Give the most obvious name.",
+    "image": "beef4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "New York Strip",
+    "alternate_answers": [
+      "strip",
+      "strip steak",
+      "sirloin"
+    ]
+  },
+  {
+    "question": "What cut of beef is this? Give the most obvious name.",
+    "image": "beef5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "t-bone",
+    "alternate_answers": [
+      "tbone",
+      "t bone"
+    ]
+  },
+  {
+    "question": "What is the shape of the highest-up block?",
+    "image": "blocks1.jpg",
+    "tags": [
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Triangle",
+    "alternate_answers": [
+      "Triangular",
+      "Right Triangle"
+    ]
+  },
+  {
+    "question": "What is the color of the highest-up block?",
+    "image": "blocks1.jpg",
+    "tags": [
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Blue",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many yellow blocks are there?",
+    "image": "blocks1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many red cylinders are there?",
+    "image": "blocks1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many blocks are not part of the main tower?",
+    "image": "blocks2.jpg",
+    "tags": [
+      "Enumeration",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "Including the weird small block, how many blocks tall is the tower?",
+    "image": "blocks2.jpg",
+    "tags": [
+      "Enumeration",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the word \"moon\" appear on the left page? Answer yes or no.",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the word \"crabbing\" appear on the left page? Answer yes or no.",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "no",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the word \"ground\" appear on the left page? Answer yes or no.",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the word \"fetid\" appear on the left page? Answer yes or no.",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "no",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the word \"desolate\" appear on the left page? Answer yes or no.",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "no",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the word \"twisted\" appear on the left page? Answer yes or no.",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the third word on the third line of the left page?",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "There",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the fifth word in the fourth line of the left page?",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "strange",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the fourth word of the first new paragraph visible on the left page?",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "remains",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pepper is mentioned on the left page?",
+    "image": "blood1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "poblano",
+    "alternate_answers": [
+      "poblanos"
+    ]
+  },
+  {
+    "question": "Focus on the sentence \"He spoke to it.\" In the sentence that follows, what is the third word?",
+    "image": "blood2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "hear",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the last word on page 228?",
+    "image": "blood2.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "heap",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the second-to-last word on page 228?",
+    "image": "blood2.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "a",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the third-to-last word on page 228?",
+    "image": "blood2.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "in",
+    "alternate_answers": []
+  },
+  {
+    "question": "The last sentence on page 228 starts with what two words?",
+    "image": "blood2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "When he",
+    "alternate_answers": [
+      "when he"
+    ]
+  },
+  {
+    "question": "Focus on the sentence \"He spoke to it.\" What is \"it\"?",
+    "image": "blood2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "horse",
+    "alternate_answers": [
+      "a horse",
+      "the horse",
+      "a dark shape",
+      "the dark shape"
+    ]
+  },
+  {
+    "question": "What bone is this?",
+    "image": "bone_1.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Humerus",
+    "alternate_answers": []
+  },
+  {
+    "question": "What bone is this?",
+    "image": "bone_2.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Patella",
+    "alternate_answers": []
+  },
+  {
+    "question": "What bone is this?",
+    "image": "bone_3.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Radius",
+    "alternate_answers": []
+  },
+  {
+    "question": "What bones are these?",
+    "image": "bone_4.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Scapula",
+    "alternate_answers": [
+      "Scapulas",
+      "Scapulae"
+    ]
+  },
+  {
+    "question": "What is the last name of the author of the second book from the top?",
+    "image": "books1.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Thoreau",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the first name of the author of the second book from the bottom?",
+    "image": "books1.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Jostein",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which U.S. president is the third book from the left about? Give their last name.",
+    "image": "books2.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Washington",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which U.S. president is the sixth book from the left about? Give their last name.",
+    "image": "books2.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Jackson",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who is the author of the leftmost book? Give their last name.",
+    "image": "books2.jpg",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Ferling",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who is the author of the rightmost book? Give their last name.",
+    "image": "books2.jpg",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Morris",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the title of the bottom book?",
+    "image": "books3.jpg",
+    "tags": [
+      "Extraction",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "The North Wind",
+    "alternate_answers": []
+  },
+  {
+    "question": "In the foreground on the left, there appears to be a bundle of some kind. What is it a bundle of?",
+    "image": "books3.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Cinnamon",
+    "alternate_answers": [
+      "Cinnamon Sticks"
+    ]
+  },
+  {
+    "question": "In the foreground, sitting on top of an envelope, there is a sticker. What is the last word on the sticker?",
+    "image": "books3.jpg",
+    "tags": [
+      "Extraction",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Death",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the third word of the title of the second book from the top?",
+    "image": "books3.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Battle",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the third word of the title of the fourth book in the top row?",
+    "image": "books4.jpg",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Midnight",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who is the author of the second book in the second row? Give the full name.",
+    "image": "books4.png",
+    "tags": [
+      "Extraction",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Fern Michaels",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Camaro",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_10.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Explorer",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_11.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Cavalier",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_12.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Crown Victoria",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_13.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Sunfire",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_14.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Focus",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_15.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Cobalt",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_16.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Figaro",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_17.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Starion",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_18.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Avantime",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_19.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Cerbera",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Viper",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_20.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Atlantique",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_21.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Pao",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Civic",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Corvette",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Charger",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Mustang",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Barracuda",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_8.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Challenger",
+    "alternate_answers": []
+  },
+  {
+    "question": "What car is this? Just give the model, not the make or year.",
+    "image": "car_9.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cars",
+    "answer": "Neon",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Maine Coon",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed10.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Ragdoll",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed11.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Maine Coon",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed12.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "Siamese",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "British Shorthair",
+    "alternate_answers": [
+      "British Blue"
+    ]
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "Ragdoll",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Abyssinian",
+    "alternate_answers": [
+      "Abys",
+      "Aby"
+    ]
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "American Shorthair",
+    "alternate_answers": [
+      "ASH"
+    ]
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Bengal",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "British Shorthair",
+    "alternate_answers": [
+      "British Blue"
+    ]
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed8.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "British Shorthair",
+    "alternate_answers": [
+      "British Blue"
+    ]
+  },
+  {
+    "question": "What breed of cat is this?",
+    "image": "cat_breed9.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Ragdoll",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many cats are in this picture?",
+    "image": "cats1.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many cats are in this picture?",
+    "image": "cats2.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "What name is this person known by?",
+    "image": "celeb_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "pewdiepie",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_10.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Kinnock",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_11.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Butler",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_12.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Saathoff",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_13.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Breher",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_14.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Davies",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_15.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Waits",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_16.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Doncic",
+    "alternate_answers": [
+      "Dončić"
+    ]
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_17.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Osaka",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_18.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Scheffler",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_19.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Garner",
+    "alternate_answers": []
+  },
+  {
+    "question": "What name is this person known by?",
+    "image": "celeb_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Mr. Beast",
+    "alternate_answers": [
+      "Mr Beast",
+      "MrBeast"
+    ]
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_20.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Goggins",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_21.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Musk",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_22.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Celebrities",
+    "answer": "Trump",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_23.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Celebrities",
+    "answer": "Swift",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_24.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Kojima",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_25.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Nadella",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_26.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Norris",
+    "alternate_answers": []
+  },
+  {
+    "question": "What name does this celebrity go by?",
+    "image": "celeb_27.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Rema",
+    "alternate_answers": []
+  },
+  {
+    "question": "What name does this celebrity go by?",
+    "image": "celeb_28.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Anitta",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_29.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Hanania",
+    "alternate_answers": []
+  },
+  {
+    "question": "What name is this person known by?",
+    "image": "celeb_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Markiplier",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_30.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Hentschel",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Rubio",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Kelly",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Durbin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_8.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Budd",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this famous person's last name?",
+    "image": "celeb_9.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Farnsworth",
+    "alternate_answers": []
+  },
+  {
+    "question": "What square is the Black Queen on?",
+    "image": "chess1.png",
+    "tags": [
+      "Spatial",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": "Chess",
+    "answer": "d8",
+    "alternate_answers": []
+  },
+  {
+    "question": "White has one bishop for white squares and one for green squares. On what square is the white bishop that stays on white squares?",
+    "image": "chess1.png",
+    "tags": [
+      "Spatial",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": "Chess",
+    "answer": "d3",
+    "alternate_answers": []
+  },
+  {
+    "question": "What piece just moved? Give color and name, e.g. White Pawn, Black Rook, White Knight, Black King",
+    "image": "chess1.png",
+    "tags": [
+      "Spatial",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": "Chess",
+    "answer": "White Bishop",
+    "alternate_answers": []
+  },
+  {
+    "question": "What piece did white lose?",
+    "image": "chess2.png",
+    "tags": [
+      "Spatial",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": "Chess",
+    "answer": "Knight",
+    "alternate_answers": [
+      "White Knight",
+      "Horse"
+    ]
+  },
+  {
+    "question": "What piece did black lose?",
+    "image": "chess2.png",
+    "tags": [
+      "Spatial",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": "Chess",
+    "answer": "Bishop",
+    "alternate_answers": [
+      "Black bishop"
+    ]
+  },
+  {
+    "question": "On what square is the white knight?",
+    "image": "chess2.png",
+    "tags": [
+      "Spatial",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": "Chess",
+    "answer": "e5",
+    "alternate_answers": []
+  },
+  {
+    "question": "On what square is the black bishop?",
+    "image": "chess2.png",
+    "tags": [
+      "Spatial",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": "Chess",
+    "answer": "e6",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many chocolate kisses in this photo are milk chocolate, rather than white chocolate or a mixture?",
+    "image": "chocolate1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "What time is shown on the clock? e.g. 10:45, 3:11, 1:16, etc.",
+    "image": "clock1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3:15",
+    "alternate_answers": []
+  },
+  {
+    "question": "What time is shown on the clock? e.g. 10:45, 3:11, 1:16, etc.",
+    "image": "clock2.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "4:40",
+    "alternate_answers": []
+  },
+  {
+    "question": "What time is shown on the clock? e.g. 10:45, 3:11, 1:16, etc.",
+    "image": "clock3.gif",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "2:37",
+    "alternate_answers": []
+  },
+  {
+    "question": "What time is shown on the clock? e.g. 10:45, 3:11, 1:16, etc.",
+    "image": "clock4.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "10:49",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the number?",
+    "image": "colorblind1.png",
+    "tags": [
+      "Extraction",
+      "Adversarial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "12",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the number?",
+    "image": "colorblind2.png",
+    "tags": [
+      "Extraction",
+      "Adversarial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "74",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the number in the bottom right circle?",
+    "image": "colorblind3.jpg",
+    "tags": [
+      "Extraction",
+      "Adversarial",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "9",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the number in the top center circle?",
+    "image": "colorblind3.jpg",
+    "tags": [
+      "Extraction",
+      "Adversarial",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "13",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the number in the circle in the middle row on the far right?",
+    "image": "colorblind4.jpg",
+    "tags": [
+      "Extraction",
+      "Adversarial",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the number in the top right circle?",
+    "image": "colorblind4.jpg",
+    "tags": [
+      "Extraction",
+      "Adversarial",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "57",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many cookies are there?",
+    "image": "cookies1.png",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "24",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many cows are there?",
+    "image": "cows1.png",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many white girls are in this photo?",
+    "image": "dancers1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many girls in this photo aren't white?",
+    "image": "dancers1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many deer are in this photo?",
+    "image": "deer1.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many dice are in this picture?",
+    "image": "dice1.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "12",
+    "alternate_answers": []
+  },
+  {
+    "question": "Total up the pips (the ones on the faces facing up) on these dice I just rolled. What's the value?",
+    "image": "dice1.jpg",
+    "tags": [
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "46",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many 6s did I just roll?",
+    "image": "dice1.jpg",
+    "tags": [
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many yellow cubes are in this picture?",
+    "image": "dice2.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "12",
+    "alternate_answers": []
+  },
+  {
+    "question": "Of the yellow cubes in this picture, how many have arabic numerals on them?",
+    "image": "dice2.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many total dice does this nice dice set come with?",
+    "image": "dice3.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "14",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many 8-sided dice are included in this set?",
+    "image": "dice3.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many dice are there?",
+    "image": "dice4.png",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "10",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many dice have a 3 facing up?",
+    "image": "dice4.png",
+    "tags": [
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many dice are there?",
+    "image": "dice5.png",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "10",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many dice are showing an odd value?",
+    "image": "dice5.png",
+    "tags": [
+      "Enumeration",
+      "Reasoning",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed1.jpg",
+    "tags": [
+      "Identification",
+      "Adversarial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Blue Heeler",
+    "alternate_answers": [
+      "Australian Cattle Dog"
+    ]
+  },
+  {
+    "question": "What is this inflatable dog dressed up as? Answer with a single noun, no article.",
+    "image": "dog_breed1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "vampire",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed10.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "German Shepherd",
+    "alternate_answers": [
+      "Alsatian"
+    ]
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed11.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Golden Retriever",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed12.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "Golden Retriever",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed13.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Great Dane",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed14.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Golden Retriever",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed15.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "Basset Hound",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed16.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "Corgi",
+    "alternate_answers": [
+      "Corgwn"
+    ]
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed17.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "dalmation",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed18.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Jack Russell Terrier",
+    "alternate_answers": [
+      "Jack Russell"
+    ]
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed19.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "corgi",
+    "alternate_answers": [
+      "Corgwn"
+    ]
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Dachshund",
+    "alternate_answers": [
+      "Weiner",
+      "Weiner Dog"
+    ]
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed20.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Rottweiler",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed21.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "french bulldog",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed22.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "poodle",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "Beagle",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Animals",
+    "answer": "Chihuahua",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Chihuahua",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Beagle",
+    "alternate_answers": []
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "poodle",
+    "alternate_answers": [
+      "French Poodle"
+    ]
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed8.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Labrador",
+    "alternate_answers": [
+      "Labrador Retriever",
+      "Golden Lab",
+      "Lab"
+    ]
+  },
+  {
+    "question": "What breed of dog is this?",
+    "image": "dog_breed9.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "German Shepherd",
+    "alternate_answers": [
+      "Alsatian"
+    ]
+  },
+  {
+    "question": "How many eggs are in this carton?",
+    "image": "eggs1.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "8",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many eggs are in this carton?",
+    "image": "eggs2.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many eggs are in this carton?",
+    "image": "eggs3.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many eggs would be in this carton if it were full?",
+    "image": "eggs3.jpg",
+    "tags": [
+      "Enumeration",
+      "Adversarial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "10",
+    "alternate_answers": []
+  },
+  {
+    "question": "In the diagram, line X is closest in length to what other line, A, B, or C?",
+    "image": "experiment1.png",
+    "tags": [
+      "Spatial",
+      "Adversarial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "In the diagram, line X is closest in length to what other line, A, B, or C?",
+    "image": "experiment2.png",
+    "tags": [
+      "Spatial",
+      "Adversarial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "What part of the eye is this?",
+    "image": "eye_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Anatomy",
+    "answer": "Iris",
+    "alternate_answers": []
+  },
+  {
+    "question": "What part of the eye is this?",
+    "image": "eye_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Cornea",
+    "alternate_answers": []
+  },
+  {
+    "question": "What part of the eye is this?",
+    "image": "eye_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Macula",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many Jets fans have painted letters on their chests in this photo?",
+    "image": "fans1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many Jets fans have both painted letters on their chests and are wearing hats in this photo?",
+    "image": "fans1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "What type of fish is this?",
+    "image": "fish1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "branzino",
+    "alternate_answers": [
+      "European seabass",
+      "sea bass",
+      "sea dace",
+      "loup de mer",
+      "white salmon"
+    ]
+  },
+  {
+    "question": "What kind of fish are these?",
+    "image": "fish2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "Red Snapper",
+    "alternate_answers": []
+  },
+  {
+    "question": "What kind of fish is this?",
+    "image": "fish3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "parrotfish",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the flag directly to the right of the United States flag? Answer with the name of the country.",
+    "image": "flags1.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "The Netherlands",
+    "alternate_answers": [
+      "Netherlands",
+      "The Netherlands",
+      "The Dutch",
+      "The Dutch Flag",
+      "The Netherlands Flag",
+      "Holland",
+      "Dutch"
+    ]
+  },
+  {
+    "question": "What flag is two to the right of the United States flag? Answer with the name of the country.",
+    "image": "flags1.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "North Macedonia",
+    "alternate_answers": [
+      "Republic of North Macedonia"
+    ]
+  },
+  {
+    "question": "What flag is two to the left of the United States flag? Answer with the name of the country.",
+    "image": "flags1.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "Liechtenstein",
+    "alternate_answers": []
+  },
+  {
+    "question": "The leftmost flag represents which country?",
+    "image": "flags2.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "Bangladesh",
+    "alternate_answers": []
+  },
+  {
+    "question": "The flag second from the left represents which country?",
+    "image": "flags2.jpg",
+    "tags": [
+      "Identification",
+      "Sequencing",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "Austria",
+    "alternate_answers": []
+  },
+  {
+    "question": "The rightmost flag is slightly cut off, yet it can still only be one country. What country is that?",
+    "image": "flags2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "Australia",
+    "alternate_answers": []
+  },
+  {
+    "question": "This image features two rows of flags. In the rear row, we see the Estonian flag. Staying in that row, what flag is to its right? Give the country name.",
+    "image": "flags3.jpg",
+    "tags": [
+      "Identification",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "Ethiopia",
+    "alternate_answers": []
+  },
+  {
+    "question": "This image features two rows of flags. In the rear row, we see the Estonian flag. Staying in that row, what flag is two to its right? Give the country name.",
+    "image": "flags3.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "Finland",
+    "alternate_answers": []
+  },
+  {
+    "question": "This image features two rows of flags. In the rear row, we see the Estonian flag. Staying in that row, what flag is four to its right? Give the country name.",
+    "image": "flags3.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Sequencing"
+    ],
+    "type": "Photo",
+    "domain": "Flags",
+    "answer": "Georgia",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, what letter of the alphabet does a solid yellow square flag correspond to?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Q",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, what letter of the alphabet does a blue-and-white-checkered flag correspond to?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "N",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, what letter of the alphabet does a yellow flag with a black dot on it correspond to?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "I",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, what letter of the alphabet has a flag that looks like the French flag?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "T",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, what number has a flag that looks like the Japanese flag?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, what number has a flag that looks like the Danish flag?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, if I \"require assistance,\" I should probably fly a white flag with an X on it. What color should my X be?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Red",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to this nautical flags chart, what letter of the alphabet has a flag with four colors on it?",
+    "image": "flags4.jpg",
+    "tags": [
+      "Reasoning",
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Z",
+    "alternate_answers": []
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Banjo-Kazooie",
+    "alternate_answers": []
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_10.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Super Mario World 2: Yoshi's Island",
+    "alternate_answers": [
+      "Yoshi's Island"
+    ]
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Resident Evil 4",
+    "alternate_answers": []
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Portal 2",
+    "alternate_answers": []
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_4.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Grand Theft Auto V",
+    "alternate_answers": [
+      "GTAV",
+      "GTA V"
+    ]
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "The Legend of Zelda: Majora's Mask",
+    "alternate_answers": [
+      "Majora's Mask"
+    ]
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "The Elder Scrolls V: Skyrim",
+    "alternate_answers": [
+      "TESV",
+      "TES V: Skyrim",
+      "The Elder Scrolls V: Skyrim",
+      "The Elder Scrolls: Skyrim",
+      "Skyrim"
+    ]
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Half-Life 2",
+    "alternate_answers": [
+      "HL2",
+      "HalfLife 2"
+    ]
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_8.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Chrono Trigger",
+    "alternate_answers": [
+      "Chrono-Trigger"
+    ]
+  },
+  {
+    "question": "What game is this screenshot from? Give the exact title.",
+    "image": "game_9.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Shadow of the Colossus",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many asian girls are in this photo?",
+    "image": "girl1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "0",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many white girls are in this photo?",
+    "image": "girl1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many hispanic women are in this photo?",
+    "image": "girl2.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many asian women are in this photo?",
+    "image": "girl2.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "0",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many of these graduates are wearing a hat?",
+    "image": "graduates1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many of these graduates are looking over their left shoulders?",
+    "image": "graduates1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many of these graduates are wearing wedges?",
+    "image": "graduates1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many grapes are on this cluster?",
+    "image": "grapes1.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many grapes aren't on the plate?",
+    "image": "grapes2.png",
+    "tags": [
+      "Enumeration",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "25",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to the graph, which country has the third largest \"appetite\" for oil?",
+    "image": "graph1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "India",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to the graph, how many thousands of barrels of oil per day is China consuming?",
+    "image": "graph1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "14295",
+    "alternate_answers": []
+  },
+  {
+    "question": "According to the graph, how much more oil is Saudi Arabia consuming relative to 2012, as a percent?",
+    "image": "graph1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "11.8%",
+    "alternate_answers": []
+  },
+  {
+    "question": "Looking at the \"Determinants\", what proportion is represented by \"Healthy behaviors?\"",
+    "image": "graph2.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "37",
+    "alternate_answers": []
+  },
+  {
+    "question": "Looking at crude oil consumption by sector, \"Other*\" represents how much?",
+    "image": "graph3.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "11.8",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the projected life expectancy at age 50 for males born in 1930, looking at quintile 5?",
+    "image": "graph4.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "31.7",
+    "alternate_answers": []
+  },
+  {
+    "question": "In quintile 1, which cohort has a higher life expectancy? Answer with the year.",
+    "image": "graph4.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "1930",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord1.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Cmin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord10.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Dmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord2.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Dmin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord3.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Gmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord4.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Gmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord5.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Emin",
+    "alternate_answers": [
+      "Fbmin"
+    ]
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord6.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Emaj",
+    "alternate_answers": [
+      "Fbmaj"
+    ]
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord7.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Amin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord8.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Cmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". You must include both parts, do not expect me to consider \"C\" as \"C Major\"! Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "guitar_chord9.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Amaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is shown in this diagram? List the root note (e.g. E, Db, F#) followed by the characteristic (maj, min, maj7, min7, or 7 for dominant). You must include both the note and characteristic.",
+    "image": "guitar_diagram1.png",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Music",
+    "answer": "Emin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is shown in this diagram? List the root note (e.g. E, Db, F#) followed by the characteristic (maj, min, maj7, min7, or 7 for dominant). You must include both the note and characteristic.",
+    "image": "guitar_diagram2.png",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Music",
+    "answer": "Gmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What guitar chord is shown in this diagram? List the root note (e.g. E, Db, F#) followed by the characteristic (maj, min, maj7, min7, or 7 for dominant). You must include both the note and characteristic.",
+    "image": "guitar_diagram3.png",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Music",
+    "answer": "Cmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "P90",
+    "alternate_answers": []
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_10.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "M1 Garande",
+    "alternate_answers": [
+      "M1",
+      "M1 Rifle",
+      "Garande"
+    ]
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "MP40",
+    "alternate_answers": [
+      "MP 40"
+    ]
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "FAMAS",
+    "alternate_answers": []
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "FN Five-seveN",
+    "alternate_answers": [
+      "FiveSeven",
+      "Five-Seven",
+      "57"
+    ]
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "Walker",
+    "alternate_answers": [
+      "Colt Walker"
+    ]
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "Vector",
+    "alternate_answers": [
+      "KRISS Vector"
+    ]
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "Spectre M4",
+    "alternate_answers": [
+      "Spectre",
+      "SITES Spectre"
+    ]
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_8.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "USP",
+    "alternate_answers": [
+      "Koch USP",
+      "H&K USP"
+    ]
+  },
+  {
+    "question": "What gun is this? Give the common name for the model (no need to include the brand)",
+    "image": "gun_9.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Guns",
+    "answer": "G3",
+    "alternate_answers": [
+      "HK G3"
+    ]
+  },
+  {
+    "question": "Which hand emoji best captures what this person is doing? Respond with a single emoji.",
+    "image": "hand_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "🫰",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which hand emoji best captures what this person is doing? Respond with a single emoji.",
+    "image": "hand_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "🤙",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which hand emoji best captures what this hand is doing? Respond with a single emoji.",
+    "image": "hand_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "🤘",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which hand emoji best captures what this person is doing? Respond with a single emoji.",
+    "image": "hand_4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "🖖",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which hand emoji best captures what this person is doing? Respond with a single emoji.",
+    "image": "hand_5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "🤌",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which hand emoji best captures what is depicted? Respond with a single emoji.",
+    "image": "hand_6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": null,
+    "answer": "🙏",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which hand emoji best captures what this person is doing? Respond with a single emoji.",
+    "image": "hand_7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "🤞",
+    "alternate_answers": []
+  },
+  {
+    "question": "Please answer the question shown in the image, and ignore spaces.",
+    "image": "handwriting1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "t",
+    "alternate_answers": []
+  },
+  {
+    "question": "Please follow the directions in the image.",
+    "image": "handwriting2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "81",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many nuts and bolts are in this photo? Format your answer as {number of nuts}-{number of bolts}, e.g. if you count 10 nuts and 5 bolts, respond 10-5.",
+    "image": "hardware1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5-3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many nuts and bolts are in this photo? Format your answer as {number of nuts}-{number of bolts}, e.g. if you count 10 nuts and 5 bolts, respond 10-5.",
+    "image": "hardware2.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3-3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many nuts and bolts are in this photo? Format your answer as {number of nuts}-{number of bolts}, e.g. if you count 10 nuts and 5 bolts, respond 10-5.",
+    "image": "hardware3.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5-5",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many nuts and bolts are in this photo? Format your answer as {number of nuts}-{number of bolts}, e.g. if you count 10 nuts and 5 bolts, respond 10-5.",
+    "image": "hardware4.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5-7",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many nuts and bolts are in this photo? Format your answer as {number of nuts}-{number of bolts}, e.g. if you count 10 nuts and 5 bolts, respond 10-5.",
+    "image": "hardware5.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "14-5",
+    "alternate_answers": []
+  },
+  {
+    "question": "What part of the heart is this?",
+    "image": "heart_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Aorta",
+    "alternate_answers": []
+  },
+  {
+    "question": "What part of the heart is this?",
+    "image": "heart_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "superior vena cava",
+    "alternate_answers": []
+  },
+  {
+    "question": "What part of the heart is this?",
+    "image": "heart_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "Anatomy",
+    "answer": "Right Atrium",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this ingredient? Be specific. Answer only with the name of the ingredient.",
+    "image": "ingredient1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "poblano pepper",
+    "alternate_answers": [
+      "poblano peppers",
+      "poblano"
+    ]
+  },
+  {
+    "question": "What ingredient is this?",
+    "image": "ingredient1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "Tonka Bean",
+    "alternate_answers": [
+      "tonka"
+    ]
+  },
+  {
+    "question": "What ingredient is this?",
+    "image": "ingredient2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "Vanilla Bean",
+    "alternate_answers": [
+      "Vanilla"
+    ]
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_1.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Video Games",
+    "answer": "Pikachu",
+    "alternate_answers": []
+  },
+  {
+    "question": "What character is this?",
+    "image": "ip_10.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "TV & Movies",
+    "answer": "Iron Man",
+    "alternate_answers": [
+      "Tony Stark"
+    ]
+  },
+  {
+    "question": "What character is this?",
+    "image": "ip_11.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "TV & Movies",
+    "answer": "Batman",
+    "alternate_answers": [
+      "The batman",
+      "Bruce Wayne"
+    ]
+  },
+  {
+    "question": "What is the first name of this character?",
+    "image": "ip_12.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "TV & Movies",
+    "answer": "Mickey",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the first name of this character?",
+    "image": "ip_13.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "TV & Movies",
+    "answer": "Pete",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this character?",
+    "image": "ip_14.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "TV & Movies",
+    "answer": "Jar Jar Binks",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this character?",
+    "image": "ip_15.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "TV & Movies",
+    "answer": "Darth Maul",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this character?",
+    "image": "ip_16.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "TV & Movies",
+    "answer": "Cinderella",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this character?",
+    "image": "ip_17.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "TV & Movies",
+    "answer": "Winnie the Pooh",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Video Games",
+    "answer": "Charizard",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Jigglypuff",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Video Games",
+    "answer": "Porygon2",
+    "alternate_answers": [
+      "Porygon 2"
+    ]
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Video Games",
+    "answer": "Linoone",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Video Games",
+    "answer": "Sudowoodo",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_7.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Video Games",
+    "answer": "Carkol",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_8.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Video Games",
+    "answer": "Morpeko",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pokemon is this?",
+    "image": "ip_9.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Video Games",
+    "answer": "Luvdisc",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many kids are there?",
+    "image": "kids1.jpg",
+    "tags": [
+      "Adversarial",
+      "Enumeration"
+    ],
+    "type": "Artwork",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which line is longer, top or bottom? Say \"equal\" if they're the same length.",
+    "image": "lines1.png",
+    "tags": [
+      "Adversarial",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "equal",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which line is longer, top or bottom? Say \"equal\" if they're the same length.",
+    "image": "lines2.png",
+    "tags": [
+      "Adversarial",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "bottom",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which line is longer, top or bottom? Say \"equal\" if they're the same length.",
+    "image": "lines3.png",
+    "tags": [
+      "Adversarial",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "top",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_12_1.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_12_2.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_12_3.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_12_4.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_3_1.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_3_2.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_3_3.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_3_4.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_5_1.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_5_2.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_5_3.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_5_4.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_8_1.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_8_2.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_8_3.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is this maze solvable? The entrance is in the top left corner and the exit is in the bottom right.",
+    "image": "maze_8_4.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "About how much force does the man have to pull with to raise the 100lb. weight? Answer with only an integer.",
+    "image": "mech_reasoning1.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "50",
+    "alternate_answers": [
+      "50 lbs",
+      "50 lbs.",
+      "50lbs.",
+      "50lbs"
+    ]
+  },
+  {
+    "question": "Among this arrangement of three pulleys, which pulley (A, B, or C) turns fastest?",
+    "image": "mech_reasoning10.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": [
+      "Pulley C",
+      "Pully C"
+    ]
+  },
+  {
+    "question": "Which of the two scenarios (A or B) requires more effort to pull the weight up off the ground? (If equal, mark C)",
+    "image": "mech_reasoning11.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": [
+      "Scenario B"
+    ]
+  },
+  {
+    "question": "Which switch (A, B, or C) should be closed in order to start the pump motor?",
+    "image": "mech_reasoning12.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": [
+      "Switch C"
+    ]
+  },
+  {
+    "question": "Select the answer choice that represents what the collection of parts will look like when assembled as indicated.",
+    "image": "mech_reasoning13.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "D",
+    "alternate_answers": []
+  },
+  {
+    "question": "Select the answer choice that represents what the collection of parts will look like when assembled as indicated.",
+    "image": "mech_reasoning14.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "A",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape can be formed by folding the given pattern?",
+    "image": "mech_reasoning15.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "A",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape can be formed by folding the given pattern?",
+    "image": "mech_reasoning16.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the answer choices shows the same block as the original?",
+    "image": "mech_reasoning17.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the following apertures could the object pass through?",
+    "image": "mech_reasoning18.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "About how much force does the man have to pull with to raise the 100lb. weight? Answer with only an integer.",
+    "image": "mech_reasoning2.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "100",
+    "alternate_answers": [
+      "100 lbs",
+      "100 lbs.",
+      "100lbs.",
+      "100lbs"
+    ]
+  },
+  {
+    "question": "Which of the following answer chocies shows a front view of the object?",
+    "image": "mech_reasoning20.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the following answer chocies shows a front view of the object?",
+    "image": "mech_reasoning21.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "The blocks have been glued together as shown, and each exterior surface of each block has been painted, except the bottom. How many cubes have only one side painted?",
+    "image": "mech_reasoning22.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "The blocks have been glued together as shown, and each exterior surface of each block has been painted, except the bottom. How many cubes have two sides painted?",
+    "image": "mech_reasoning23.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the answer choices represents the orientation of the plane?",
+    "image": "mech_reasoning24.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the answer choices represents the orientation of the plane?",
+    "image": "mech_reasoning25.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the answer choices represents the orientation of the plane?",
+    "image": "mech_reasoning26.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "How will the holes appear when the paper is unfolded?",
+    "image": "mech_reasoning27.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many blocks are in the arrangement?",
+    "image": "mech_reasoning29.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "13",
+    "alternate_answers": []
+  },
+  {
+    "question": "If gear D is turning clockwise, which direction is gear A turning? Answer with \"clockwise\" or \"counterclockwise\"",
+    "image": "mech_reasoning3.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "counterclockwise",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many blocks are in the arrangement?",
+    "image": "mech_reasoning30.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "14",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many blocks are touching block 5 in the image?",
+    "image": "mech_reasoning31.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many blocks are touching block 1 in the image?",
+    "image": "mech_reasoning32.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the shapes below can be formed from the given pieces?",
+    "image": "mech_reasoning33.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which of the shapes below can be formed from the given pieces?",
+    "image": "mech_reasoning34.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "Select the answer letter of the figure that appears within the image. The figure that appears within the image will have the same size and orientation as in the figure.",
+    "image": "mech_reasoning35.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": []
+  },
+  {
+    "question": "Select the answer letter of the figure that appears within the image. The figure that appears within the image will have the same size and orientation as in the figure.",
+    "image": "mech_reasoning36.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "D",
+    "alternate_answers": []
+  },
+  {
+    "question": "Objects 1 and 2 are submerged in separate tanks, both filled with water. In which tank (A or B) will the water level be highest? If equal, mark C.",
+    "image": "mech_reasoning5.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": [
+      "Tank B"
+    ]
+  },
+  {
+    "question": "If ball 1 and ball 2 are of equal weight and moving at the same speed, in which direction (a, B, or C) will ball 1 tend to go when it collids with ball 2 at point X?",
+    "image": "mech_reasoning6.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "A",
+    "alternate_answers": [
+      "Direction A"
+    ]
+  },
+  {
+    "question": "In which direction (A or B) will gear 5 spin if gear 1 is spinning counter-clockwise? (If both, mark C)",
+    "image": "mech_reasoning7.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "A",
+    "alternate_answers": [
+      "Direction A"
+    ]
+  },
+  {
+    "question": "Which of the two identical objects (A or B) will launch a higher distance when the springs are released? (If equal, mark C)",
+    "image": "mech_reasoning8.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": [
+      "Object B"
+    ]
+  },
+  {
+    "question": "A watering can is filled with water. Which of the pictures (A or B) shows a more accurate representation of how the water will rest?",
+    "image": "mech_reasoning9.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "B",
+    "alternate_answers": [
+      "Object B",
+      "Picture B",
+      "Watering Can B"
+    ]
+  },
+  {
+    "question": "How many seconds left on this microwave timer?",
+    "image": "microwave1.jpg",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "9",
+    "alternate_answers": []
+  },
+  {
+    "question": "How much money is depicted? Answer in cents.",
+    "image": "money1.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "69",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many quarters are depicted?",
+    "image": "money1.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "How much money is this?",
+    "image": "money2.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$31.04",
+    "alternate_answers": []
+  },
+  {
+    "question": "How much money is this?",
+    "image": "money3.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$120.00",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the second bill from the right?",
+    "image": "money3.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$20.00",
+    "alternate_answers": []
+  },
+  {
+    "question": "How much money is this?",
+    "image": "money4.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$92.13",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many of the pennies are on the \"tails\" side?",
+    "image": "money4.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the total amount of cents I'm holding?",
+    "image": "money5.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "60",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the total amount of cents I'm holding? Careful, some of these may be foreign coins!",
+    "image": "money5.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "60",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many of these coins aren't dimes?",
+    "image": "money5.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the total amount of cents here?",
+    "image": "money6.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "50",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the total amount of cents here? Careful, some of these may be foreign coins!",
+    "image": "money6.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "50",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many quarters are here?",
+    "image": "money7.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the total amount of money in this picture?",
+    "image": "money7.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$2.25",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the total amount of money in this picture? Careful, some of these may be foreign coins!",
+    "image": "money8.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$1.23",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the total amount of money in this picture? Careful, some of these may be foreign coins!",
+    "image": "money8.jpg",
+    "tags": [
+      "Identification",
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$1.23",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Monster House",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_10.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Koyaanisqatsi",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Due Date",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "300",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Brave",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Sideways",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Annie",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_7.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Ed Wood",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_8.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "A Bug's Life",
+    "alternate_answers": []
+  },
+  {
+    "question": "What movie is this from? Give the exact title.",
+    "image": "movie_9.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "TV & Movies",
+    "answer": "Twilight",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is the smallest mug?",
+    "image": "mugs1.jpg",
+    "tags": [
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "brown",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many mugs are empty?",
+    "image": "mugs2.jpg",
+    "tags": [
+      "Quality",
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is the smallest mug?",
+    "image": "mugs2.jpg",
+    "tags": [
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "dark blue",
+    "alternate_answers": [
+      "navy"
+    ]
+  },
+  {
+    "question": "How many empty mugs are in this photo?",
+    "image": "mugs3.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many mugs are in this photo?",
+    "image": "mugs3.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "In what column is the cup that most resembles the Starbucks to-go cup? Answer as an integer, 1, 2, 3, 4, or 5.",
+    "image": "mugs4.jpg",
+    "tags": [
+      "Sequencing",
+      "Quality",
+      "Reasoning"
+    ],
+    "type": "Artwork",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "A symbol on this periodic table has been duplicated. What is the name of the duplicated element?",
+    "image": "periodic_1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Niobium",
+    "alternate_answers": []
+  },
+  {
+    "question": "A symbol on this periodic table has been duplicated. What is the name of the duplicated element?",
+    "image": "periodic_2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Bismuth",
+    "alternate_answers": []
+  },
+  {
+    "question": "A symbol on this periodic table has been duplicated. What is the name of the duplicated element?",
+    "image": "periodic_3.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "Holmium",
+    "alternate_answers": []
+  },
+  {
+    "question": "Of the highlighted notes, what should I play for the top note? Please just answer with the name of the note (e.g. C, D#, eb) with no mention of what octave it needs to be played in. Only exact answers accepted (and enharmonic equivalents).",
+    "image": "piano1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "F#",
+    "alternate_answers": [
+      "Gb"
+    ]
+  },
+  {
+    "question": "What's the song called?",
+    "image": "piano1.jpg",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Unforgettable",
+    "alternate_answers": []
+  },
+  {
+    "question": "What chord is being played on this piano? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, or if its ambiguous since it could be multiple chords in various inversions, choose the more obvious one.",
+    "image": "piano10.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Fmaj",
+    "alternate_answers": [
+      "E#maj"
+    ]
+  },
+  {
+    "question": "If 1 is the thumb and 5 is the pinky, which number corresponds to the finger not currently playing a key?",
+    "image": "piano10.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "The pinky is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of the octave.",
+    "image": "piano10.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "What chord is being played on this piano? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, or if its ambiguous since it could be multiple chords in various inversions, choose the more obvious one.",
+    "image": "piano11.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Amin",
+    "alternate_answers": []
+  },
+  {
+    "question": "The pinky is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of the octave.",
+    "image": "piano11.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "A",
+    "alternate_answers": []
+  },
+  {
+    "question": "What instrument is the piano \"tone\" currently set to?",
+    "image": "piano11.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Grand Piano 1",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this highlighted note, minding the key signature? Please just answer with the name of the note (e.g. C, D#, eb) with no mention of what octave it needs to be played in. Only exact answers accepted (and enharmonic equivalents).",
+    "image": "piano2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "A",
+    "alternate_answers": []
+  },
+  {
+    "question": "What key is this written is, supposing I tell you that it's a major key? Please just answer with the name of the key (e.g. C, D#, eb). Only exact answers accepted (and enharmonic equivalents).",
+    "image": "piano2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "G",
+    "alternate_answers": []
+  },
+  {
+    "question": "Of the highlighted notes, and minding the key signature, what should I play for the top note? Please just answer with the name of the note (e.g. C, D#, eb) with no mention of what octave it needs to be played in. Only exact answers accepted (and enharmonic equivalents).",
+    "image": "piano3.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "C",
+    "alternate_answers": []
+  },
+  {
+    "question": "Of the highlighted notes, and minding the key signature, what should I play for the middle note? Please just answer with the name of the note (e.g. C, D#, eb) with no mention of what octave it needs to be played in. Only exact answers accepted (and enharmonic equivalents).",
+    "image": "piano3.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Ab",
+    "alternate_answers": [
+      "G#"
+    ]
+  },
+  {
+    "question": "Of the highlighted notes, and minding the key signature, what should I play for the bottom note? Please just answer with the name of the note (e.g. C, D#, eb) with no mention of what octave it needs to be played in. Only exact answers accepted (and enharmonic equivalents).",
+    "image": "piano3.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "F",
+    "alternate_answers": [
+      "E#",
+      "Fnat",
+      "Fnatural",
+      "F natural"
+    ]
+  },
+  {
+    "question": "Focusing only on the highlighted notes, and minding the key signature, what chord would you say is being played? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "piano3.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Fmin",
+    "alternate_answers": [
+      "E#min"
+    ]
+  },
+  {
+    "question": "Of the highlighted notes, how many beats should the bottom note be held for? Answer to one decimal place.",
+    "image": "piano3.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "1.5",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the name of the highlighted note, minding the key signature? Please just answer with the name of the note (e.g. C, D#, eb) with no mention of what octave it needs to be played in. Only exact answers accepted (and enharmonic equivalents).",
+    "image": "piano4.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "D",
+    "alternate_answers": []
+  },
+  {
+    "question": "What syllable should be sung for the highlighted note? Answer with just the syllable.",
+    "image": "piano4.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Un",
+    "alternate_answers": []
+  },
+  {
+    "question": "For how many beats should the highlighted note be held? Answer to one decimal place.",
+    "image": "piano4.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "What chord is being played on this piano? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, or if its ambiguous since it could be multiple chords in various inversions, choose the more obvious one.",
+    "image": "piano5.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Dmin",
+    "alternate_answers": []
+  },
+  {
+    "question": "The right thumb is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of octave, etc.",
+    "image": "piano5.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "F",
+    "alternate_answers": [
+      "E#"
+    ]
+  },
+  {
+    "question": "What chord is being played on this piano? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, or if its ambiguous since it could be multiple chords in various inversions, choose the more obvious one.",
+    "image": "piano6.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Fmaj",
+    "alternate_answers": [
+      "E#maj"
+    ]
+  },
+  {
+    "question": "The right thumb is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of octave, etc.",
+    "image": "piano6.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "F",
+    "alternate_answers": [
+      "E#"
+    ]
+  },
+  {
+    "question": "The index finger is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of the octave.",
+    "image": "piano6.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "A",
+    "alternate_answers": []
+  },
+  {
+    "question": "What chord is being played on this piano? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, or if its ambiguous since it could be multiple chords in various inversions, choose the more obvious one.",
+    "image": "piano7.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Cmaj7",
+    "alternate_answers": [
+      "B#maj7"
+    ]
+  },
+  {
+    "question": "If 1 is the thumb and 5 is the pinky, which number corresponds to the finger not currently playing a key?",
+    "image": "piano7.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "The index finger is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of the octave.",
+    "image": "piano7.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "E",
+    "alternate_answers": [
+      "Fb"
+    ]
+  },
+  {
+    "question": "What chord is being played on this piano? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, or if its ambiguous since it could be multiple chords in various inversions, choose the more obvious one.",
+    "image": "piano8.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "C7",
+    "alternate_answers": [
+      "B#7"
+    ]
+  },
+  {
+    "question": "If 1 is the thumb and 5 is the pinky, which number corresponds to the finger not currently playing a key?",
+    "image": "piano8.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "The ring finger is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of the octave.",
+    "image": "piano8.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Bb",
+    "alternate_answers": [
+      "A#"
+    ]
+  },
+  {
+    "question": "What chord is being played on this piano? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, or if its ambiguous since it could be multiple chords in various inversions, choose the more obvious one.",
+    "image": "piano9.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "G7",
+    "alternate_answers": []
+  },
+  {
+    "question": "If 1 is the thumb and 5 is the pinky, which number corresponds to the finger not currently playing a key?",
+    "image": "piano9.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "The thumb is on what key? Please respond with only the name of the note (e.g. C, D#, Eb, etc.) with no mention of the octave.",
+    "image": "piano9.jpg",
+    "tags": [
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "G",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many piglets are there?",
+    "image": "piglets1.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many pills remain in the blister pack in the foreground?",
+    "image": "pills1.png",
+    "tags": [
+      "Enumeration",
+      "Spatial"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "7",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many pills are in this image?",
+    "image": "pills2.png",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "25",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many blue pills are in this image?",
+    "image": "pills2.png",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many yellow pills are in this image?",
+    "image": "pills2.png",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many capsules (not tablets) are in this image?",
+    "image": "pills2.png",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many total pills are contained in this blister pack?",
+    "image": "pills3.png",
+    "tags": [
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "28",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many pills are there?",
+    "image": "pills4.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "8",
+    "alternate_answers": []
+  },
+  {
+    "question": "What pharmaceutical company's logo is on the pills?",
+    "image": "pills4.jpg",
+    "tags": [
+      "Extraction",
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Merck",
+    "alternate_answers": []
+  },
+  {
+    "question": "What number is written on each pill?",
+    "image": "pills4.jpg",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "82",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many pills are there completely outside the bottle, and not even touching it?",
+    "image": "pills5.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "9",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many pills are there, including the ones in the bottle?",
+    "image": "pills5.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "15",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many sides are on this polygon?",
+    "image": "polygon_1.png",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "10",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many sides are on this polygon?",
+    "image": "polygon_2.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "7",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many points does this star have?",
+    "image": "polygon_3.png",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "9",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "12-48",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program2.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "4-44",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program3.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "10-10",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program4.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "13-43",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program5.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "10-29",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program6.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "12-84",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program7.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "98-35",
+    "alternate_answers": []
+  },
+  {
+    "question": "What will this program output? Answer should be in the format of {int}-{int}, so possible answers might be \"3-4\", \"100-20\", \"22-35\", etc. Only exact answers accepted.",
+    "image": "program8.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "120-212",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many lines in the following program? Answer as an integer.",
+    "image": "program8.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": "Programming",
+    "answer": "9",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many asian guys are in this photo? Count only people whose faces you can see.",
+    "image": "races1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many black guys are in this photo? Count only people whose faces you can see.",
+    "image": "races1.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many white people are in this photo?",
+    "image": "races2.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many black people are in this photo?",
+    "image": "races2.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many white guys are in this photo?",
+    "image": "races3.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many black guys are in this photo?",
+    "image": "races3.jpg",
+    "tags": [
+      "Enumeration",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven1.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven11.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven12.jpeg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "E",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven13.gif",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "7",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven4.png",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "8",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven5.png",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "5",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven7.gif",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven8.jpg",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which shape best completes the pattern?",
+    "image": "raven9.png",
+    "tags": [
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is the power button?",
+    "image": "remote_1.jpg",
+    "tags": [
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Red",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is the \"D\" button?",
+    "image": "remote_1.jpg",
+    "tags": [
+      "Extraction",
+      "Quality"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Blue",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the remote have a Netflix button?",
+    "image": "remote_1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "No",
+    "alternate_answers": []
+  },
+  {
+    "question": "Does the remote have a Sports button?",
+    "image": "remote_1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "Alligator or crocodile? Answer in a single word.",
+    "image": "reptile1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "alligator",
+    "alternate_answers": []
+  },
+  {
+    "question": "Alligator or crocodile? Answer in a single word.",
+    "image": "reptile2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "alligator",
+    "alternate_answers": []
+  },
+  {
+    "question": "Alligator or crocodile? Answer in a single word.",
+    "image": "reptile3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "crocodile",
+    "alternate_answers": []
+  },
+  {
+    "question": "Alligator or crocodile? Answer in a single word.",
+    "image": "reptile4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "crocodile",
+    "alternate_answers": []
+  },
+  {
+    "question": "Alligator or crocodile? Answer in a single word.",
+    "image": "reptile5.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "Crocodile",
+    "alternate_answers": []
+  },
+  {
+    "question": "Alligator or crocodile? Answer in a single word.",
+    "image": "reptile6.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Animals",
+    "answer": "alligator",
+    "alternate_answers": []
+  },
+  {
+    "question": "What kind of sandwich is this? Answer in a single word.",
+    "image": "sandwich1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "cuban",
+    "alternate_answers": [
+      "cubano"
+    ]
+  },
+  {
+    "question": "What kind of sandwich is this?",
+    "image": "sandwich2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Cooking",
+    "answer": "Banh Mi",
+    "alternate_answers": [
+      "bánh mì",
+      "bánh mỳ"
+    ]
+  },
+  {
+    "question": "What is the highest value letter in this hand? Give the letter only.",
+    "image": "scrabble1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "J",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many unique consonants appear in this scrabble hand?",
+    "image": "scrabble1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "6",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the sum of the values of the tiles in this scrabble hand?",
+    "image": "scrabble1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "22",
+    "alternate_answers": []
+  },
+  {
+    "question": "What shape do you see?",
+    "image": "shape1.jpg",
+    "tags": [
+      "Adversarial",
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "square",
+    "alternate_answers": []
+  },
+  {
+    "question": "What shape do you see?",
+    "image": "shape2.png",
+    "tags": [
+      "Adversarial",
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "triangle",
+    "alternate_answers": []
+  },
+  {
+    "question": "The smallest spoon in this picture holds how much volume in milliliters? Return only the number, accurate to two decimal places.",
+    "image": "spoons1.jpg",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "0.63",
+    "alternate_answers": []
+  },
+  {
+    "question": "The second largest spoon in this picture holds how much volume in milliliters? Return only the number, rounded to the nearest integer.",
+    "image": "spoons1.jpg",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "15",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many spoons are there?",
+    "image": "spoons2.jpg",
+    "tags": [
+      "Adversarial",
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "What constellation is this?",
+    "image": "star_1.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Scorpio",
+    "alternate_answers": []
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_10.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Procyon",
+    "alternate_answers": []
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_11.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Sirius",
+    "alternate_answers": []
+  },
+  {
+    "question": "What constellation is this?",
+    "image": "star_13.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Ursa Major",
+    "alternate_answers": []
+  },
+  {
+    "question": "What constellation is this?",
+    "image": "star_14.png",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Auriga",
+    "alternate_answers": []
+  },
+  {
+    "question": "What constellation is this?",
+    "image": "star_15.png",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Draco",
+    "alternate_answers": []
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_2.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Vega",
+    "alternate_answers": []
+  },
+  {
+    "question": "What asterism is this?",
+    "image": "star_3.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Summer Triangle",
+    "alternate_answers": [
+      "The Summer Triangle"
+    ]
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_4.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Arcturus",
+    "alternate_answers": []
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_5.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Spica",
+    "alternate_answers": []
+  },
+  {
+    "question": "What constellation is this?",
+    "image": "star_6.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Orion",
+    "alternate_answers": []
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_7.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Betelgeuse",
+    "alternate_answers": []
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_8.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Aldebaran",
+    "alternate_answers": []
+  },
+  {
+    "question": "What star is this? Give the common name.",
+    "image": "star_9.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning",
+      "Spatial"
+    ],
+    "type": "Diagram",
+    "domain": "Astronomy",
+    "answer": "Capella",
+    "alternate_answers": []
+  },
+  {
+    "question": "On the green sign, there is a name. The first name is \"Dean,\" what is the last name?",
+    "image": "street1.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Keeton",
+    "alternate_answers": []
+  },
+  {
+    "question": "What does it say in big letters on the side of the truck?",
+    "image": "street2.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "HeartLand Express",
+    "alternate_answers": [
+      "Heart Land Express",
+      "Heartland Express"
+    ]
+  },
+  {
+    "question": "There's an exit sign on the highway support. What number is on it?",
+    "image": "street2.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "What beer is the bilboard advertising?",
+    "image": "street3.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Michelob Ultra",
+    "alternate_answers": [
+      "Michelob"
+    ]
+  },
+  {
+    "question": "Someone put some grafitti on the side of this building using big, bold, black letters. What does it say?",
+    "image": "street4.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "STENCH",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the price of Diesel at Chevron? You can completely ignore the 9/10 part after the listed price.",
+    "image": "street5.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "$3.79",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's the name of the shopping center/mall on the right?",
+    "image": "street6.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Capital Plaza",
+    "alternate_answers": []
+  },
+  {
+    "question": "Is there a Ross in the shopping center/mall on the right? Answer \"Yes\" or \"No\"",
+    "image": "street6.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "Yes",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the street address of aca studios?",
+    "image": "street7.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "88 union street",
+    "alternate_answers": []
+  },
+  {
+    "question": "What city are we in?",
+    "image": "street7.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": null,
+    "answer": "London",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who won the first set?",
+    "image": "tennis1.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Screen Capture",
+    "domain": null,
+    "answer": "Sabalenka",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who is serving?",
+    "image": "tennis1.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Screen Capture",
+    "domain": null,
+    "answer": "Pegula",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which player is higher ranked?",
+    "image": "tennis1.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Screen Capture",
+    "domain": null,
+    "answer": "Sabalenka",
+    "alternate_answers": []
+  },
+  {
+    "question": "Including accessible seating and companion seating in the total, how many seats are in this theater?",
+    "image": "theater1.png",
+    "tags": [
+      "Enumeration",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": null,
+    "answer": "110",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents). If the chord goes by multiple names, choose the more common one.",
+    "image": "ukulele_chord1.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Gmaj7",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord10.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Amin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord11.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Amin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord2.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Cmaj",
+    "alternate_answers": [
+      "B#maj"
+    ]
+  },
+  {
+    "question": "How many strings am I touching?",
+    "image": "ukulele_chord2.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord3.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "C7",
+    "alternate_answers": [
+      "B#7"
+    ]
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord4.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Dmin",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many strings am I touching?",
+    "image": "ukulele_chord4.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord5.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Dmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord6.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Fmaj",
+    "alternate_answers": [
+      "E#maj"
+    ]
+  },
+  {
+    "question": "How many strings am I touching?",
+    "image": "ukulele_chord6.jpg",
+    "tags": [
+      "Enumeration"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord7.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Gmaj",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord8.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "G7",
+    "alternate_answers": []
+  },
+  {
+    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
+    "image": "ukulele_chord9.jpg",
+    "tags": [
+      "Identification",
+      "Spatial",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Music",
+    "answer": "Gmin",
+    "alternate_answers": []
+  }
+]
