@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 import json, base64, time, os, mimetypes, threading
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime
 from openai import OpenAI
 from dotenv import load_dotenv
 
+# Import xAI SDK for direct xAI model usage
+from xai_sdk import Client as XAIClient
+from xai_sdk.chat import user, system, image
 
+with open("questions.json") as f:
+    questions = json.load(f)
 
 # SETTINGS
 SYS_PROMPT = """
@@ -19,17 +25,36 @@ it from). If the question is "Who is this singer?" Your answer should be "Adele"
 nothing extra. You are welcome to reason about it for extended periods, but your response should
 consist of just the answer.
 """
-MAX_QUESTIONS = 7 # Set to 1000000 for all questions
+MAX_QUESTIONS = len(questions) # Set to len(questions) for all questions
 MODELS = [
-    {"name": "gemini-2.5-pro", "model": "google/gemini-2.5-pro", "reasoning_effort": "low"},
-    {"name": "anthropic/claude-sonnet-4", "model": "anthropic/claude-sonnet-4", "reasoning_max_tokens": "2000"},
+    {"name": "gemini-2.5-pro", "model": "google/gemini-2.5-pro"},
+    {"name": "anthropic/claude-opus-4.1", "model": "anthropic/claude-opus-4.1", "reasoning_max_tokens": "8000"},
+    {"name": "x-ai/grok-4", "model": "x-ai/grok-4"},
+    {"name": "openai/gpt-5-high", "model": "openai/gpt-5", "reasoning_effort": "high"},
+
+    # sonnet 4
+    # 4o
+    # gemini 2.5 flash
+    # qwen-vl-max-2025-08-13
+    # glm-4.5v
+    # hunyuan-large-vision
+    # step-3
+    # mistral-medium-2505
+    # llama-4-scout-17b-16e-instruct
 ]
 
+# Starting at $53.02 credits, doing 20 questions
+# 51.67 after 20 questions
+
+questions = questions[:MAX_QUESTIONS]
 load_dotenv()
 API_KEY = os.getenv("OPENROUTER_API_KEY")
+XAI_API_KEY=os.getenv("XAI_API_KEY")
 client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=API_KEY)
+xai_client = XAIClient(api_key=XAI_API_KEY, timeout=3600)
 all_results = {}
 results_lock = threading.Lock()
+
 
 def run_model(model_config, questions):
     model_results = all_results.get(model_config["name"], [])
@@ -37,11 +62,13 @@ def run_model(model_config, questions):
     
     for i, q in enumerate(questions):
         if any(r.get("question") == q["question"] and r.get("image") == q["image"] for r in model_results):
-            print(f"[{model_config['name']}] [{i+1}/{len(questions)}] SKIP")
+            timestamp = datetime.now().strftime("%H:%M:%S")
+            print(f"[{timestamp}] [{model_config['name']}] [{i+1}/{len(questions)}] SKIP")
             skipped += 1
             continue
             
-        print(f"[{model_config['name']}] [{i+1}/{len(questions)}] {q['question'][:60]}...")
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        print(f"[{timestamp}] [{model_config['name']}] [{i+1}/{len(questions)}] {q['question'][:60]}...")
         
         try:
             with open(f"images/{q['image']}", "rb") as f:
@@ -59,7 +86,9 @@ def run_model(model_config, questions):
                     ]}
                 ],
                 "temperature": 0.0,
-                "extra_body": {"usage": {"include": True}}
+                "extra_body": {
+                    "usage": {"include": True}
+                }
             }
             if model_config.get("reasoning_effort"):
                 params["reasoning_effort"] = model_config["reasoning_effort"]
@@ -67,11 +96,35 @@ def run_model(model_config, questions):
                 params['extra_body'].update({'reasoning': {'max_tokens': 2000}})
                 
             start = time.time()
-            response = client.chat.completions.create(**params)
+            
+            # Use native xAI SDK for x-ai models - following their docs exactly  
+            if "x-ai/" in model_config["model"]:
+                chat = xai_client.chat.create(
+                    model=model_config["model"].replace("x-ai/", ""),
+                    temperature=0.0
+                )
+                
+                # Add system message exactly like their docs
+                chat.append(system(SYS_PROMPT))
+                chat.append(user(
+                    q["question"],
+                    image(image_url=f"data:{mime_type};base64,{data}"),
+                ))
+                
+                xai_response = chat.sample()
+                
+                # Convert xAI response format to match others
+                content = xai_response.content
+                reasoning_trace = getattr(xai_response, 'reasoning', None) 
+                usage = getattr(xai_response, 'usage', None)
+                
+            else:
+                response = client.chat.completions.create(**params)
+                content = response.choices[0].message.content
+                reasoning_trace = getattr(response.choices[0].message, 'reasoning', None)
+                usage = response.usage if hasattr(response, 'usage') else None
+                
             duration = time.time() - start
-            content = response.choices[0].message.content
-            reasoning_trace = getattr(response.choices[0].message, 'reasoning', None)
-            usage = response.usage if hasattr(response, 'usage') else None
             
             result = {
                 "question": q["question"],
@@ -79,7 +132,7 @@ def run_model(model_config, questions):
                 "response": content,
                 "reasoning": reasoning_trace,
                 "correct_answer": q.get("answer", ""),
-                "model": model_config["name"],
+                "model": model_config["model"],
                 "time": duration
             }
             
@@ -103,16 +156,26 @@ def run_model(model_config, questions):
             completed += 1
             
         except Exception as e:
-            print(f"[{model_config['name']}] ERROR: {e}")
+            duration = time.time() - start
+            print(f"[{model_config['name']}] ERROR: {e} (after {duration:.1f}s)")
+            print(f"[{model_config['name']}] ERROR TYPE: {type(e)}")
+            print(f"[{model_config['name']}] ERROR ATTRIBUTES: {dir(e)}")
+            
+            # Try to get more details about JSON errors
+            if "Expecting value" in str(e):
+                print(f"[{model_config['name']}] This looks like a JSON parsing error")
+                if hasattr(e, 'doc'):
+                    print(f"[{model_config['name']}] MALFORMED JSON (first 1000 chars):")
+                    print(repr(e.doc[:1000]))
+                if hasattr(e, 'response'):
+                    print(f"[{model_config['name']}] Response object found")
+                if hasattr(e, 'args'):
+                    print(f"[{model_config['name']}] Args: {e.args}")
             continue
     
     print(f"[{model_config['name']}] DONE! {completed} completed, {skipped} skipped")
 
 def main():
-    with open("questions.json") as f:
-        questions = json.load(f)
-    questions = questions[:MAX_QUESTIONS]
-    
     if os.path.exists("results.json"):
         with open("results.json") as f:
             all_results.update(json.load(f))

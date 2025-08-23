@@ -116,7 +116,7 @@
   },
   {
     "question": "What cut of beef is this? Give the most obvious name.",
-    "image": "beef3.jpg",
+    "image": "beef3.png",
     "tags": [
       "Identification"
     ],
@@ -145,7 +145,7 @@
   },
   {
     "question": "What cut of beef is this? Give the most obvious name.",
-    "image": "beef5.jpg",
+    "image": "beef5.jpeg",
     "tags": [
       "Identification"
     ],
@@ -355,7 +355,7 @@
   },
   {
     "question": "Focus on the sentence \"He spoke to it.\" In the sentence that follows, what is the third word?",
-    "image": "blood2.jpg",
+    "image": "blood3.jpg",
     "tags": [
       "Extraction",
       "Reasoning"
@@ -367,7 +367,7 @@
   },
   {
     "question": "What is the last word on page 228?",
-    "image": "blood2.jpg",
+    "image": "blood3.jpg",
     "tags": [
       "Extraction",
       "Sequencing"
@@ -379,7 +379,7 @@
   },
   {
     "question": "What is the second-to-last word on page 228?",
-    "image": "blood2.jpg",
+    "image": "blood3.jpg",
     "tags": [
       "Extraction",
       "Sequencing"
@@ -391,7 +391,7 @@
   },
   {
     "question": "What is the third-to-last word on page 228?",
-    "image": "blood2.jpg",
+    "image": "blood3.jpg",
     "tags": [
       "Extraction",
       "Sequencing"
@@ -403,7 +403,7 @@
   },
   {
     "question": "The last sentence on page 228 starts with what two words?",
-    "image": "blood2.jpg",
+    "image": "blood3.jpg",
     "tags": [
       "Extraction",
       "Reasoning"
@@ -417,7 +417,7 @@
   },
   {
     "question": "Focus on the sentence \"He spoke to it.\" What is \"it\"?",
-    "image": "blood2.jpg",
+    "image": "blood3.jpg",
     "tags": [
       "Extraction",
       "Reasoning"
@@ -605,7 +605,7 @@
   },
   {
     "question": "What is the third word of the title of the fourth book in the top row?",
-    "image": "books4.jpg",
+    "image": "books4.png",
     "tags": [
       "Extraction",
       "Sequencing"
@@ -1003,7 +1003,7 @@
   },
   {
     "question": "How many cats are in this picture?",
-    "image": "cats1.jpg",
+    "image": "cats3.jpg",
     "tags": [
       "Enumeration"
     ],
@@ -1014,7 +1014,7 @@
   },
   {
     "question": "How many cats are in this picture?",
-    "image": "cats2.jpg",
+    "image": "cats4.jpg",
     "tags": [
       "Enumeration"
     ],
@@ -1110,12 +1110,12 @@
     "domain": "Celebrities",
     "answer": "Doncic",
     "alternate_answers": [
-      "Dončić"
+      "Don\u010di\u0107"
     ]
   },
   {
     "question": "What is this famous person's last name?",
-    "image": "celeb_17.jpg",
+    "image": "celeb_17.png",
     "tags": [
       "Identification"
     ],
@@ -1349,7 +1349,7 @@
   },
   {
     "question": "What square is the Black Queen on?",
-    "image": "chess1.png",
+    "image": "chess3.png",
     "tags": [
       "Spatial",
       "Reasoning",
@@ -1362,7 +1362,7 @@
   },
   {
     "question": "White has one bishop for white squares and one for green squares. On what square is the white bishop that stays on white squares?",
-    "image": "chess1.png",
+    "image": "chess3.png",
     "tags": [
       "Spatial",
       "Reasoning",
@@ -1375,7 +1375,7 @@
   },
   {
     "question": "What piece just moved? Give color and name, e.g. White Pawn, Black Rook, White Knight, Black King",
-    "image": "chess1.png",
+    "image": "chess3.png",
     "tags": [
       "Spatial",
       "Reasoning",
@@ -1388,7 +1388,7 @@
   },
   {
     "question": "What piece did white lose?",
-    "image": "chess2.png",
+    "image": "chess4.png",
     "tags": [
       "Spatial",
       "Reasoning",
@@ -1404,7 +1404,7 @@
   },
   {
     "question": "What piece did black lose?",
-    "image": "chess2.png",
+    "image": "chess4.png",
     "tags": [
       "Spatial",
       "Reasoning",
@@ -1419,7 +1419,7 @@
   },
   {
     "question": "On what square is the white knight?",
-    "image": "chess2.png",
+    "image": "chess4.png",
     "tags": [
       "Spatial",
       "Reasoning",
@@ -1432,7 +1432,7 @@
   },
   {
     "question": "On what square is the black bishop?",
-    "image": "chess2.png",
+    "image": "chess4.png",
     "tags": [
       "Spatial",
       "Reasoning",
@@ -1481,7 +1481,7 @@
   },
   {
     "question": "What time is shown on the clock? e.g. 10:45, 3:11, 1:16, etc.",
-    "image": "clock3.gif",
+    "image": "clock3.jpg",
     "tags": [
       "Extraction",
       "Reasoning"
@@ -1936,7 +1936,7 @@
   },
   {
     "question": "What breed of dog is this?",
-    "image": "dog_breed21.jpg",
+    "image": "dog_breed23.jpg",
     "tags": [
       "Identification"
     ],
@@ -2043,7 +2043,7 @@
   },
   {
     "question": "How many eggs are in this carton?",
-    "image": "eggs1.jpg",
+    "image": "eggs4.jpg",
     "tags": [
       "Enumeration"
     ],
@@ -2054,7 +2054,7 @@
   },
   {
     "question": "How many eggs are in this carton?",
-    "image": "eggs2.jpg",
+    "image": "eggs5.jpg",
     "tags": [
       "Enumeration"
     ],
@@ -2065,7 +2065,7 @@
   },
   {
     "question": "How many eggs are in this carton?",
-    "image": "eggs3.jpg",
+    "image": "eggs6.jpg",
     "tags": [
       "Enumeration"
     ],
@@ -2076,7 +2076,7 @@
   },
   {
     "question": "How many eggs would be in this carton if it were full?",
-    "image": "eggs3.jpg",
+    "image": "eggs6.jpg",
     "tags": [
       "Enumeration",
       "Adversarial"
@@ -2333,7 +2333,7 @@
   },
   {
     "question": "According to this nautical flags chart, what letter of the alphabet does a solid yellow square flag correspond to?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -2346,7 +2346,7 @@
   },
   {
     "question": "According to this nautical flags chart, what letter of the alphabet does a blue-and-white-checkered flag correspond to?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -2359,7 +2359,7 @@
   },
   {
     "question": "According to this nautical flags chart, what letter of the alphabet does a yellow flag with a black dot on it correspond to?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -2372,7 +2372,7 @@
   },
   {
     "question": "According to this nautical flags chart, what letter of the alphabet has a flag that looks like the French flag?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -2385,7 +2385,7 @@
   },
   {
     "question": "According to this nautical flags chart, what number has a flag that looks like the Japanese flag?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -2398,7 +2398,7 @@
   },
   {
     "question": "According to this nautical flags chart, what number has a flag that looks like the Danish flag?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -2411,7 +2411,7 @@
   },
   {
     "question": "According to this nautical flags chart, if I \"require assistance,\" I should probably fly a white flag with an X on it. What color should my X be?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -2424,7 +2424,7 @@
   },
   {
     "question": "According to this nautical flags chart, what letter of the alphabet has a flag with four colors on it?",
-    "image": "flags4.jpg",
+    "image": "flags4.png",
     "tags": [
       "Reasoning",
       "Extraction",
@@ -3067,7 +3067,7 @@
     ],
     "type": "Photo",
     "domain": null,
-    "answer": "🫰",
+    "answer": "\ud83e\udef0",
     "alternate_answers": []
   },
   {
@@ -3078,7 +3078,7 @@
     ],
     "type": "Photo",
     "domain": null,
-    "answer": "🤙",
+    "answer": "\ud83e\udd19",
     "alternate_answers": []
   },
   {
@@ -3089,7 +3089,7 @@
     ],
     "type": "Photo",
     "domain": null,
-    "answer": "🤘",
+    "answer": "\ud83e\udd18",
     "alternate_answers": []
   },
   {
@@ -3100,7 +3100,7 @@
     ],
     "type": "Photo",
     "domain": null,
-    "answer": "🖖",
+    "answer": "\ud83d\udd96",
     "alternate_answers": []
   },
   {
@@ -3111,7 +3111,7 @@
     ],
     "type": "Photo",
     "domain": null,
-    "answer": "🤌",
+    "answer": "\ud83e\udd0c",
     "alternate_answers": []
   },
   {
@@ -3122,7 +3122,7 @@
     ],
     "type": "Artwork",
     "domain": null,
-    "answer": "🙏",
+    "answer": "\ud83d\ude4f",
     "alternate_answers": []
   },
   {
@@ -3133,7 +3133,7 @@
     ],
     "type": "Photo",
     "domain": null,
-    "answer": "🤞",
+    "answer": "\ud83e\udd1e",
     "alternate_answers": []
   },
   {
@@ -3210,7 +3210,7 @@
   },
   {
     "question": "How many nuts and bolts are in this photo? Format your answer as {number of nuts}-{number of bolts}, e.g. if you count 10 nuts and 5 bolts, respond 10-5.",
-    "image": "hardware5.jpg",
+    "image": "hardware5.png",
     "tags": [
       "Enumeration",
       "Quality"
@@ -3388,7 +3388,7 @@
   },
   {
     "question": "What is the name of this character?",
-    "image": "ip_17.jpg",
+    "image": "ip_17.png",
     "tags": [
       "Identification"
     ],
@@ -5375,7 +5375,7 @@
   },
   {
     "question": "Which shape best completes the pattern?",
-    "image": "raven12.jpeg",
+    "image": "raven12.jpg",
     "tags": [
       "Spatial",
       "Reasoning"
@@ -5387,7 +5387,7 @@
   },
   {
     "question": "Which shape best completes the pattern?",
-    "image": "raven13.gif",
+    "image": "raven13.jpg",
     "tags": [
       "Spatial",
       "Reasoning"
@@ -5423,7 +5423,7 @@
   },
   {
     "question": "Which shape best completes the pattern?",
-    "image": "raven7.gif",
+    "image": "raven7.jpg",
     "tags": [
       "Spatial",
       "Reasoning"
@@ -5594,8 +5594,8 @@
     "domain": "Cooking",
     "answer": "Banh Mi",
     "alternate_answers": [
-      "bánh mì",
-      "bánh mỳ"
+      "b\u00e1nh m\u00ec",
+      "b\u00e1nh m\u1ef3"
     ]
   },
   {
@@ -6150,19 +6150,6 @@
   },
   {
     "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
-    "image": "ukulele_chord5.jpg",
-    "tags": [
-      "Identification",
-      "Spatial",
-      "Reasoning"
-    ],
-    "type": "Photo",
-    "domain": "Music",
-    "answer": "Dmaj",
-    "alternate_answers": []
-  },
-  {
-    "question": "What ukulele chord is this? Please answer with the root note (e.g. C, D#, Eb, etc.) and chord type (e.g. maj, min, maj7, min7, and 7). So example answers would be \"D#maj7\" or \"G7\" or \"Bbmaj\". Only exact answers accepted (and enharmonic equivalents), dont worry about inversions. If the chord goes by multiple names, or if its ambiguous since you can't tell which strings will be muted, choose the more common/obvious one.",
     "image": "ukulele_chord6.jpg",
     "tags": [
       "Identification",
@@ -6225,5 +6212,763 @@
     "domain": "Music",
     "answer": "Gmin",
     "alternate_answers": []
+  },
+  {
+    "question": "How much health does the player have? Give your answer as an integer.",
+    "image": "game_11.jpg",
+    "tags": [
+      "Enumeration",
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "Which character is winning? Give their name.",
+    "image": "game_12.jpg",
+    "tags": [
+      "Enumeration",
+      "Reasoning",
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Video Games",
+    "answer": "Fox",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who painted this?",
+    "image": "painting_1.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "van Gogh",
+    "alternate_answers": [
+      "Vincent Van Gogh"
+    ]
+  },
+  {
+    "question": "What is the name of this painting?",
+    "image": "painting_2.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "The Kiss",
+    "alternate_answers": [
+      "Kiss"
+    ]
+  },
+  {
+    "question": "Who painted this? Give their last name.",
+    "image": "painting_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "Lichtenstein",
+    "alternate_answers": [
+      "Roy Lichtenstein"
+    ]
+  },
+  {
+    "question": "Who painted this? Give their last name.",
+    "image": "painting_4.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "Gentileschi",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who painted this? Give their last name.",
+    "image": "painting_5.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "Estes",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this painting?",
+    "image": "painting_6.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "Twittering Machine",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this painting?",
+    "image": "painting_7.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "Mars Dust",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this painting?",
+    "image": "painting_8.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "Tomorrow is Never",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the name of this painting?",
+    "image": "painting_9.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Art",
+    "answer": "The Jungle",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who is the artist responsible for this work? Give their last name.",
+    "image": "painting_10.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Art",
+    "answer": "Araeen",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is this? Give the exact hexidecimal, i.e. \"#ff0000\", \"#23acf0\"",
+    "image": "color_1.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "",
+    "answer": "#000000",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is this? Give the exact hexidecimal, i.e. \"#ff0000\", \"#23acf0\"",
+    "image": "color_2.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "",
+    "answer": "#ffffff",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is this? Give the exact hexidecimal, i.e. \"#ff0000\", \"#23acf0\"",
+    "image": "color_3.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "",
+    "answer": "#0000ff",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is this? Give the exact hexidecimal, i.e. \"#ff0000\", \"#23acf0\"",
+    "image": "color_4.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "",
+    "answer": "#ccffcc",
+    "alternate_answers": []
+  },
+  {
+    "question": "What color is this? Give the exact hexidecimal, i.e. \"#ff0000\", \"#23acf0\"",
+    "image": "color_5.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Diagram",
+    "domain": "",
+    "answer": "#99ccff",
+    "alternate_answers": []
+  },
+  {
+    "question": "The man being shot is what famous historical figure? Give the last name.",
+    "image": "furry_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "",
+    "answer": "Ferdinand",
+    "alternate_answers": []
+  },
+  {
+    "question": "What animal is this?",
+    "image": "furry_2.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "",
+    "answer": "Pangolin",
+    "alternate_answers": []
+  },
+  {
+    "question": "What website is this? Give the common name.",
+    "image": "website_1.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "",
+    "answer": "Facebook",
+    "alternate_answers": []
+  },
+  {
+    "question": "What website is this? Give the common name.",
+    "image": "website_2.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "",
+    "answer": "4chan",
+    "alternate_answers": []
+  },
+  {
+    "question": "What US State is this?",
+    "image": "map_1.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Geography",
+    "answer": "West Virginia",
+    "alternate_answers": []
+  },
+  {
+    "question": "This map has a border going from left to right. What is the country south of that border?",
+    "image": "map_2.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Geography",
+    "answer": "Bhutan",
+    "alternate_answers": []
+  },
+  {
+    "question": "This map has a border going from left to right. What is the country north of that border?",
+    "image": "map_2.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Geography",
+    "answer": "China",
+    "alternate_answers": [
+      "Tibet"
+    ]
+  },
+  {
+    "question": "This shoreline belongs to which country?",
+    "image": "map_3.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Geography",
+    "answer": "Myanmar",
+    "alternate_answers": [
+      "Burma"
+    ]
+  },
+  {
+    "question": "What country is this?",
+    "image": "map_4.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Geography",
+    "answer": "Russia",
+    "alternate_answers": []
+  },
+  {
+    "question": "What country is this?",
+    "image": "map_5.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Geography",
+    "answer": "Algeria",
+    "alternate_answers": []
+  },
+  {
+    "question": "What country is this?",
+    "image": "map_6.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Diagram",
+    "domain": "Geography",
+    "answer": "Argentina",
+    "alternate_answers": []
+  },
+  {
+    "question": "What city is this?",
+    "image": "city_1.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Geography",
+    "answer": "Buenos Aires",
+    "alternate_answers": []
+  },
+  {
+    "question": "What city is this?",
+    "image": "city_2.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Geography",
+    "answer": "Honolulu",
+    "alternate_answers": []
+  },
+  {
+    "question": "What city is this?",
+    "image": "city_3.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Geography",
+    "answer": "Chongqing",
+    "alternate_answers": [
+      "Chung King",
+      "\u91cd\u5e86"
+    ]
+  },
+  {
+    "question": "What city is this?",
+    "image": "city_4.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Geography",
+    "answer": "Warsaw",
+    "alternate_answers": [
+      "Warszawa"
+    ]
+  },
+  {
+    "question": "What city is this?",
+    "image": "city_5.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "Geography",
+    "answer": "Strasbourg",
+    "alternate_answers": [
+      "Strossburi",
+      "Stra\u00dfburg"
+    ]
+  },
+  {
+    "question": "What is this footwear?",
+    "image": "clothes_1.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Clogs",
+    "alternate_answers": [
+      "Clog"
+    ]
+  },
+  {
+    "question": "What is this footwear?",
+    "image": "clothes_2.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Geta",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the article of clothing called that this man wears?",
+    "image": "clothes_3.png",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Loin Cloth",
+    "alternate_answers": [
+      "Loincloth"
+    ]
+  },
+  {
+    "question": "What is the hat this man wears called?",
+    "image": "clothes_4.jpg",
+    "tags": [
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Fez",
+    "alternate_answers": []
+  },
+  {
+    "question": "What brand of shirt is this man wearing?",
+    "image": "brand_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Lacoste",
+    "alternate_answers": []
+  },
+  {
+    "question": "What brand of shirt is the man on the right wearing?",
+    "image": "brand_2.png",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Vineyard Vines",
+    "alternate_answers": []
+  },
+  {
+    "question": "What brand of shirt is the man on the right wearing?",
+    "image": "brand_3.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Brooks Brothers",
+    "alternate_answers": []
+  },
+  {
+    "question": "Who is the man on the left? Give his last name.",
+    "image": "celeb_31.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Photo",
+    "domain": "Celebrities",
+    "answer": "Epstein",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is this character's first name?",
+    "image": "meme_1.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Screen Capture",
+    "domain": "Memes",
+    "answer": "Apu",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many fingers does this man have? Answer with an integer.",
+    "image": "fingers_1.jpg",
+    "tags": [
+      "Enumeration",
+      "Adversarial"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "12",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many thumbs are in this picture?",
+    "image": "fingers_2.jpg",
+    "tags": [
+      "Enumeration",
+      "Adversarial"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "What character is this? Give his first name.",
+    "image": "ip_18.png",
+    "tags": [
+      "Identification",
+      "Adversarial"
+    ],
+    "type": "Artwork",
+    "domain": "",
+    "answer": "Mario",
+    "alternate_answers": []
+  },
+  {
+    "question": "What character is this? Give his first name.",
+    "image": "ip_19.jpg",
+    "tags": [
+      "Identification",
+      "Adversarial"
+    ],
+    "type": "Artwork",
+    "domain": "",
+    "answer": "Mario",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many unique characters speak on this page?",
+    "image": "manga_1.jpg",
+    "tags": [
+      "Enumeration",
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Artwork",
+    "domain": "Manga",
+    "answer": "3",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many unique characters speak on this page?",
+    "image": "manga_2.jpg",
+    "tags": [
+      "Enumeration",
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Artwork",
+    "domain": "Manga",
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many unique characters speak on this page?",
+    "image": "manga_3.jpg",
+    "tags": [
+      "Enumeration",
+      "Identification",
+      "Reasoning"
+    ],
+    "type": "Artwork",
+    "domain": "Manga",
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "What is the first name of the speaking character?",
+    "image": "manga_4.jpg",
+    "tags": [
+      "Identification"
+    ],
+    "type": "Artwork",
+    "domain": "Manga",
+    "answer": "Levi",
+    "alternate_answers": []
+  },
+  {
+    "question": "A home run here will generate how many RBIs?",
+    "image": "baseball_1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "4",
+    "alternate_answers": []
+  },
+  {
+    "question": "This image is divided into 12 labeled sectors. In which sector would we find Waldo? Return just the number of the section.",
+    "image": "waldo_1.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "1",
+    "alternate_answers": []
+  },
+  {
+    "question": "This image is divided into 12 labeled sectors. In which sector would we find Waldo? Return just the number of the section.",
+    "image": "waldo_2.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "What was the balance after the electricity payment? Return the answer in dollars with no decimal or commas (just the integer).",
+    "image": "bank_statement_1.jpg",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "675900",
+    "alternate_answers": []
+  },
+  {
+    "question": "What's written on the memo line of this check?",
+    "image": "check_1.png",
+    "tags": [
+      "Extraction",
+      "Reasoning"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Donation",
+    "alternate_answers": []
+  },
+  {
+    "question": "What flavor potato chips were ordered?",
+    "image": "receipt_1.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "BBQ",
+    "alternate_answers": []
+  },
+  {
+    "question": "How many fried chicken sandwiches were ordered?",
+    "image": "receipt_1.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "2",
+    "alternate_answers": []
+  },
+  {
+    "question": "What was the total?",
+    "image": "receipt_1.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "$124.53",
+    "alternate_answers": [
+      "124.53"
+    ]
+  },
+  {
+    "question": "What's the balance due?",
+    "image": "receipt_2.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "$26.94",
+    "alternate_answers": [
+      "26.94"
+    ]
+  },
+  {
+    "question": "What's the balance due if I pay with cash?",
+    "image": "receipt_3.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "55.49",
+    "alternate_answers": [
+      "$55.49"
+    ]
+  },
+  {
+    "question": "What was the name of our server?",
+    "image": "receipt_3.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Emilio",
+    "alternate_answers": []
+  },
+  {
+    "question": "What flavor iced tea was ordered?",
+    "image": "receipt_4.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "Ginger Mint",
+    "alternate_answers": []
+  },
+  {
+    "question": "What was the total?",
+    "image": "receipt_4.png",
+    "tags": [
+      "Extraction"
+    ],
+    "type": "Photo",
+    "domain": "",
+    "answer": "$16.20",
+    "alternate_answers": [
+      "16.20"
+    ]
   }
 ]
