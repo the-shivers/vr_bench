@@ -47,3 +47,4 @@ logs/
 # Temp scripts
 attempt.py
 chat_**.json
+vr_bench*.png
