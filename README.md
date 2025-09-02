@@ -4,7 +4,7 @@ Homemade benchmark to assess how good LLMs are at everyday visual reasoning task
 
 You're welcome to run this yourself (apologies about the code: there's a lot of Claudeslop), or you can just look at the results.
 
-I made a Twitter/X thread about it here.
+I made a Twitter/X thread about it [here](https://x.com/thinkingshivers/status/1962768039994073375).
 
 ## Running
 
