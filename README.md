@@ -21,7 +21,7 @@ That's it.
 
 ## Key Files
 
-- `questions.json` - 511 questions with images
+- `questions.json` - 500+ questions
 - `images/` - all the images
 - `results.json` - raw output after running
 - `results_cleaned.tsv` - Manually cleaned results to guarantee accuracy. Was able to catch a few questions with incorrect answers in this review. Please use this file rather than results.json if you want to analyze the data.
