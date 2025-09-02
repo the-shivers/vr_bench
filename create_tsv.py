@@ -37,15 +37,38 @@ def create_tsv():
     # Get all model names from results
     model_names = list(results.keys()) if results else []
     
+    # Get all unique tags for binary columns
+    all_tags = set()
+    for q in questions:
+        all_tags.update(q.get("tags", []))
+    all_tags = sorted(list(all_tags))
+    
     # Create TSV headers
     headers = [
-        "question", "image", "correct_answer", "tags", "domain", 
+        "question", "image", "correct_answer", "domain", 
         "alternate_answers", "difficulty"
     ]
     
-    # Add columns for each model (answer + reasoning)
+    # Add binary tag columns
+    for tag in all_tags:
+        headers.append(f"is_{tag.replace(' ', '_').replace('-', '_').lower()}")
+    
+    # Keep original tags column for reference
+    headers.append("tags_original")
+    
+    # Add columns for each model (answer + reasoning + token data + timing)
     for model in model_names:
-        headers.extend([f"{model}_answer", f"{model}_reasoning", f"{model}_correct"])
+        headers.extend([
+            f"{model}_answer", 
+            f"{model}_reasoning", 
+            f"{model}_correct",
+            f"{model}_time",
+            f"{model}_prompt_tokens",
+            f"{model}_completion_tokens", 
+            f"{model}_reasoning_tokens",
+            f"{model}_total_tokens",
+            f"{model}_cost"
+        ])
     
     # Create TSV data
     rows = []
@@ -55,11 +78,18 @@ def create_tsv():
             "question": q.get("question", ""),
             "image": q.get("image", ""),
             "correct_answer": q.get("answer", ""),
-            "tags": "|".join(q.get("tags", [])),
             "domain": q.get("domain", ""),
             "alternate_answers": "|".join(q.get("alternate_answers", [])),
             "difficulty": q.get("difficulty", "")
         }
+        
+        # Add binary tag columns
+        question_tags = q.get("tags", [])
+        for tag in all_tags:
+            row[f"is_{tag.replace(' ', '_').replace('-', '_').lower()}"] = 1 if tag in question_tags else 0
+        
+        # Keep original tags for reference
+        row["tags_original"] = "|".join(question_tags)
         
         # Add model responses
         for model in model_names:
@@ -85,10 +115,27 @@ def create_tsv():
                     q.get("alternate_answers", [])
                 )
                 row[f"{model}_correct"] = score
+                
+                # Add timing and token data
+                row[f"{model}_time"] = response.get("time", "")
+                
+                tokens = response.get("tokens", {})
+                row[f"{model}_prompt_tokens"] = tokens.get("prompt", "")
+                row[f"{model}_completion_tokens"] = tokens.get("completion", "")
+                row[f"{model}_reasoning_tokens"] = tokens.get("reasoning", "")
+                row[f"{model}_total_tokens"] = tokens.get("total", "")
+                row[f"{model}_cost"] = tokens.get("cost", "")
+                
             else:
                 row[f"{model}_answer"] = ""
                 row[f"{model}_reasoning"] = ""  
                 row[f"{model}_correct"] = ""
+                row[f"{model}_time"] = ""
+                row[f"{model}_prompt_tokens"] = ""
+                row[f"{model}_completion_tokens"] = ""
+                row[f"{model}_reasoning_tokens"] = ""
+                row[f"{model}_total_tokens"] = ""
+                row[f"{model}_cost"] = ""
         
         rows.append(row)
     

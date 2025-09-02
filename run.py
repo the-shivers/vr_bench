@@ -1,11 +1,8 @@
-#!/usr/bin/env python3
 import json, base64, time, os, mimetypes, threading
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from openai import OpenAI
 from dotenv import load_dotenv
-
-# Import xAI SDK for direct xAI model usage
 from xai_sdk import Client as XAIClient
 from xai_sdk.chat import user, system, image
 
@@ -25,26 +22,25 @@ it from). If the question is "Who is this singer?" Your answer should be "Adele"
 nothing extra. You are welcome to reason about it for extended periods, but your response should
 consist of just the answer.
 """
-MAX_QUESTIONS = len(questions) # Set to len(questions) for all questions
+MAX_QUESTIONS = 700
 MODELS = [
-    {"name": "gemini-2.5-pro", "model": "google/gemini-2.5-pro"},
-    {"name": "anthropic/claude-opus-4.1", "model": "anthropic/claude-opus-4.1", "reasoning_max_tokens": "8000"},
-    {"name": "x-ai/grok-4", "model": "x-ai/grok-4"},
-    {"name": "openai/gpt-5-high", "model": "openai/gpt-5", "reasoning_effort": "high"},
+    # Batch 1
+    # {"name": "gemini-2.5-pro", "model": "google/gemini-2.5-pro"},
+    # {"name": "anthropic/claude-opus-4.1", "model": "anthropic/claude-opus-4.1", "reasoning_max_tokens": "8000"},
+    # {"name": "x-ai/grok-4", "model": "x-ai/grok-4"},
+    # {"name": "openai/gpt-5-high", "model": "openai/gpt-5", "reasoning_effort": "high"},
 
-    # sonnet 4
-    # 4o
-    # gemini 2.5 flash
-    # qwen-vl-max-2025-08-13
-    # glm-4.5v
-    # hunyuan-large-vision
-    # step-3
-    # mistral-medium-2505
-    # llama-4-scout-17b-16e-instruct
+    # Batch 2
+    # {"name": "anthropic/claude-sonnet-4", "model": "anthropic/claude-sonnet-4", "reasoning_max_tokens": "8000"},
+    # {"name": "openai/chatgpt-4o-latest", "model": "openai/chatgpt-4o-latest"},
+    # {"name": "google/gemini-2.5-flash", "model": "google/gemini-2.5-flash", "reasoning_max_tokens": "20000"},
+    # {"name": "qwen/qwen-vl-max", "model": "qwen/qwen-vl-max"},
+    # {"name": "z-ai/glm-4.5v", "model": "z-ai/glm-4.5v", "reasoning_effort": "high"},
+
+    # Batch 3
+    {"name": "x-ai/grok-4-high-detail", "model": "x-ai/grok-4"},
+    {"name": "openai/gpt-5-high-detail", "model": "openai/gpt-5"},
 ]
-
-# Starting at $53.02 credits, doing 20 questions
-# 51.67 after 20 questions
 
 questions = questions[:MAX_QUESTIONS]
 load_dotenv()
@@ -63,13 +59,14 @@ def run_model(model_config, questions):
     for i, q in enumerate(questions):
         if any(r.get("question") == q["question"] and r.get("image") == q["image"] for r in model_results):
             timestamp = datetime.now().strftime("%H:%M:%S")
-            print(f"[{timestamp}] [{model_config['name']}] [{i+1}/{len(questions)}] SKIP")
+            # print(f"[{timestamp}] [{model_config['name']}] [{i+1}/{len(questions)}] SKIP")
             skipped += 1
             continue
             
         timestamp = datetime.now().strftime("%H:%M:%S")
         print(f"[{timestamp}] [{model_config['name']}] [{i+1}/{len(questions)}] {q['question'][:60]}...")
-        
+        start = time.time()
+
         try:
             with open(f"images/{q['image']}", "rb") as f:
                 data = base64.b64encode(f.read()).decode('utf-8')
@@ -82,7 +79,7 @@ def run_model(model_config, questions):
                     {"role": "system", "content": SYS_PROMPT},
                     {"role": "user", "content": [
                         {"type": "text", "text": q["question"]},
-                        {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{data}"}}
+                        {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{data}"}, "detail": "high"}
                     ]}
                 ],
                 "temperature": 0.0,
@@ -93,27 +90,21 @@ def run_model(model_config, questions):
             if model_config.get("reasoning_effort"):
                 params["reasoning_effort"] = model_config["reasoning_effort"]
             elif model_config.get("reasoning_max_tokens"):
-                params['extra_body'].update({'reasoning': {'max_tokens': 2000}})
+                params['extra_body'].update({'reasoning': {'max_tokens': 80000}})
+                params['max_tokens'] = 80000 #gemini
                 
-            start = time.time()
-            
-            # Use native xAI SDK for x-ai models - following their docs exactly  
             if "x-ai/" in model_config["model"]:
                 chat = xai_client.chat.create(
                     model=model_config["model"].replace("x-ai/", ""),
                     temperature=0.0
                 )
-                
-                # Add system message exactly like their docs
                 chat.append(system(SYS_PROMPT))
                 chat.append(user(
                     q["question"],
-                    image(image_url=f"data:{mime_type};base64,{data}"),
+                    # image(image_url=f"data:{mime_type};base64,{data}"),
+                    image(image_url=f"data:{mime_type};base64,{data}", detail="high"),
                 ))
-                
                 xai_response = chat.sample()
-                
-                # Convert xAI response format to match others
                 content = xai_response.content
                 reasoning_trace = getattr(xai_response, 'reasoning', None) 
                 usage = getattr(xai_response, 'usage', None)
@@ -121,6 +112,8 @@ def run_model(model_config, questions):
             else:
                 response = client.chat.completions.create(**params)
                 content = response.choices[0].message.content
+                # Clean up model formatting tags
+                content = content.replace('\n', '').replace('<|begin_of_box|>', '').replace('<|end_of_box|>', '').replace('<answer>', '').replace('</answer>', '')
                 reasoning_trace = getattr(response.choices[0].message, 'reasoning', None)
                 usage = response.usage if hasattr(response, 'usage') else None
                 
